@@ -1,0 +1,40 @@
+.socialDiv {
+  display: flex;
+  width: 75%;
+  margin: 5% auto;
+  flex-direction: column;
+
+  .socialHeader {
+    margin-left: 25px;
+  }
+
+  .socialCont {
+    border: solid 4px #30475e;
+    border-radius: 15px;
+    height: 150px;
+    width: 100%;
+  }
+
+  .socialLogos {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-evenly;
+    margin-left: 25px;
+  }
+
+  .socialMediaLogo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .socialEmail {
+    margin: 2%;
+    height: 25px;
+    font-weight: bold;
+    padding: 5px;
+    width: 45%;
+    border: 3px solid #222831;
+    border-radius: 5px;
+  }
+}

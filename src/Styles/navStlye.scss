@@ -1,0 +1,35 @@
+.NavBar {
+  width: 95%;
+  height: 100px;
+  margin: auto;
+  border: solid #30475e 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    color: #222831;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .navHeader {
+    text-decoration: none;
+  }
+
+  .navPages {
+    margin: 0 auto;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+    .navlinks {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      border-bottom: 2px solid black;
+      border-radius: 2px;
+    }
+  }
+}

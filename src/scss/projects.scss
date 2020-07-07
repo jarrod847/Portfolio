@@ -1,0 +1,12 @@
+.projectDisplay {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0;
+}
+
+.project {
+  border: solid #596e79 5px;
+  border-radius: 15px;
+  width: 25%;
+  text-align: center;
+}

@@ -13,13 +13,21 @@ const Social = () => {
         <input className="socialEmail" placeholder="Email"></input>
         <div className="socialLogos">
           <a href="https://twitter.com/SkahillJarrod">
-            <img className="socialMediaLogo" src={twit} />
+            <img className="socialMediaLogo" src={twit} alt="Twitter Account" />
           </a>
           <a href="https://www.instagram.com/jarrod847/">
-            <img className="socialMediaLogo" src={insta} />
+            <img
+              className="socialMediaLogo"
+              src={insta}
+              alt="Instagram Account"
+            />
           </a>
           <a href="https://www.linkedin.com/in/jarrod-skahill-561059197/">
-            <img className="socialMediaLogo" src={linkdin} />
+            <img
+              className="socialMediaLogo"
+              src={linkdin}
+              alt="Linkdin Account"
+            />
           </a>
         </div>
       </div>

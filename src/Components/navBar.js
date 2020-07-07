@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/navStlye.scss";
+import "../scss/navStlye.scss";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const NavBar = () => {

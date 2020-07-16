@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/social.scss";
+import "../scss/social.scss";
 import twit from "../imgs/windows-media-audio.svg";
 import insta from "../imgs/logos.svg";
 import linkdin from "../imgs/networks.svg";

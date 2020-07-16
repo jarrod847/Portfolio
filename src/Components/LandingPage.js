@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/landing.scss";
+import "../scss/landing.scss";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const LandingPage = () => {
   return (

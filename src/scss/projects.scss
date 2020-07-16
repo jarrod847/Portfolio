@@ -1,5 +1,6 @@
 .projectDisplay {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   margin: 5% 0;
 }
@@ -8,5 +9,11 @@
   border: solid #596e79 5px;
   border-radius: 15px;
   width: 25%;
+  margin-bottom: 5%;
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  * {
+    margin: 3%;
+  }
 }

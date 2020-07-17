@@ -1,6 +1,6 @@
 .socialDiv {
   display: flex;
-  width: 75%;
+  width: 50%;
   margin: 5% auto;
   flex-direction: column;
 
@@ -11,8 +11,54 @@
   .socialCont {
     border: solid 4px #30475e;
     border-radius: 15px;
-    height: 150px;
+    height: 50%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message {
+    margin: 2%;
+    height: 75px;
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid #222831;
+    border-radius: 5px;
+  }
+
+  .socialForm {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .socialEmail {
+      margin: 2%;
+      height: 25px;
+      font-weight: bold;
+      padding: 5px;
+      width: 40%;
+      border: 3px solid #222831;
+      border-radius: 5px;
+    }
+    button {
+      width: 30%;
+      height: 50px;
+      margin-bottom: 2%;
+      margin-right: 19px;
+      border: 3px solid #222831;
+      border-radius: 5px;
+      :hover {
+        text-decoration: underline;
+      }
+    }
+    .message {
+      margin: 2%;
+      height: 75px;
+      font-weight: bold;
+      padding: 5px;
+      width: 100%;
+      border: 3px solid #222831;
+      border-radius: 5px;
+    }
   }
 
   .socialLogos {
@@ -26,15 +72,6 @@
   .socialMediaLogo {
     width: 35px;
     height: 35px;
-  }
-
-  .socialEmail {
-    margin: 2%;
-    height: 25px;
-    font-weight: bold;
-    padding: 5px;
-    width: 45%;
-    border: 3px solid #222831;
-    border-radius: 5px;
+    margin-bottom: 5%;
   }
 }

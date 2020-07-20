@@ -5,12 +5,6 @@ import insta from "../imgs/logos.svg";
 import linkdin from "../imgs/networks.svg";
 import emailjs from "emailjs-com";
 const Social = () => {
-  const [email, setEmail] = useState({
-    name: "",
-    message: "",
-    email: "",
-  });
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs

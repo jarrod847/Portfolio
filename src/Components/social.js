@@ -18,6 +18,8 @@ const Social = () => {
         console.log("Succesfully sent");
       });
   };
+  
+  //social
 
   return (
     <div className="socialDiv">

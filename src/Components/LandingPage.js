@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className="landing">
       <div className="landing-left">
         <h2>Hello my name is Jarrod Skahill, and welcome to my Portfolio!</h2>
-        <p>
+        {/* <p>
           I have three pages: <Link className="land-links">About</Link> for a
           short summary about myself,{" "}
           <Link className="land-links">Projects</Link> is where you can find
@@ -14,7 +14,7 @@ const LandingPage = () => {
           is where I provide links to my social platforms and where you can send
           me your email with inquires. Thanks for stopping by, feel free to
           reach out and get in touch through my social page.
-        </p>
+        </p> */}
       </div>
     </div>
   );

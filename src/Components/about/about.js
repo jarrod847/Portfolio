@@ -5,8 +5,7 @@ import aboutInfo from "./aboutInfo";
 const AboutMe = () => {
   return (
     <div className="aboutPage">
-      <h1>Hello, I'm Jarrod Skahill....</h1>
-      <p>{aboutInfo[0]}</p>
+      <h2>{aboutInfo[0]}</h2>
       <div></div>
     </div>
   );

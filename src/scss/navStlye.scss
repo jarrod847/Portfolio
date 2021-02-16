@@ -1,34 +1,33 @@
 .NavBar {
   width: 95%;
-  height: 100px;
   margin: auto;
-  border: solid #596e79 10px;
-  border-radius: 15px;
+  border-bottom: solid #596e79 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: baseline;
+  justify-content: space-between;
   h1 {
     color: #222831;
-    margin: 0;
+    margin: 1rem;
     text-align: center;
     text-decoration: none;
   }
 
   .navHeader {
+    display: flex;
     text-decoration: none;
+    width: 50%;
   }
 
   .navPages {
     margin: 0 auto;
-    width: 25%;
+    width: 48%;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: flex-end;
     .navlinks {
+      margin: 0 4%;
       text-decoration: none;
       color: black;
       font-weight: bold;
-      border-bottom: 2px solid black;
       border-radius: 2px;
     }
   }

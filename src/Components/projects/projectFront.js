@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectFront = () => {
+const ProjectFront = ({ data }) => {
   return (
     <div className="project">
       <h1>{data.project}</h1>
@@ -11,6 +11,7 @@ const ProjectFront = () => {
         <a href={data.github}>Github Link</a>
         <a href={data.deployed}>Deployed Link</a>
       </div>
+      <button>Description</button>
     </div>
   );
 };

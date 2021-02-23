@@ -1,11 +1,11 @@
 import React from "react";
 
-const ProjectBack = ({ data }) => {
+const ProjectBack = ({ data, handleFlip }) => {
   return (
-    <div className="project">
+    <div>
       <h1>{data.project}</h1>
       <p>{data.description}</p>
-      <button>Back</button>
+      <button onClick={() => handleFlip()}>Back</button>
     </div>
   );
 };

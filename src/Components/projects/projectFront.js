@@ -1,8 +1,8 @@
 import React from "react";
 
-const ProjectFront = ({ data }) => {
+const ProjectFront = ({ data, handleFlip }) => {
   return (
-    <div className="project">
+    <div>
       <h1>{data.project}</h1>
       <p>Stack: {data.stack}</p>
       <p>Start Date: {data.start}</p>
@@ -11,7 +11,7 @@ const ProjectFront = ({ data }) => {
         <a href={data.github}>Github Link</a>
         <a href={data.deployed}>Deployed Link</a>
       </div>
-      <button>Description</button>
+      <button onClick={() => handleFlip()}>Description</button>
     </div>
   );
 };

@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactCardFlip from "react-card-flip";
+import ProjectBack from "./projectBack";
+import ProjectFront from "./projectFront";
 
 const Project = ({ data }) => {
+  const [flip, setFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setFlipped(!flip);
+  };
   return (
     <div className="project">
-      <h1>{data.project}</h1>
-      <p>Stack: {data.stack}</p>
-      <p>Start Date: {data.start}</p>
-      <p>End Date: {data.end}</p>
-      <div className="projectLinks">
-        <a href={data.github}>Github Link</a>
-        <a href={data.deployed}>Deployed Link</a>
-      </div>
+      <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
+        <ProjectFront data={data} handleFlip={handleFlip} />
+        <ProjectBack data={data} handleFlip={handleFlip} />
+      </ReactCardFlip>
     </div>
   );
 };

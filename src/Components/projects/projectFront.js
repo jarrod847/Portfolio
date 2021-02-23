@@ -7,11 +7,11 @@ const ProjectFront = ({ data, handleFlip }) => {
       <p>Stack: {data.stack}</p>
       <p>Start Date: {data.start}</p>
       <p>End Date: {data.end}</p>
+      <button onClick={() => handleFlip()}>Description</button>
       <div className="projectLinks">
         <a href={data.github}>Github Link</a>
         <a href={data.deployed}>Deployed Link</a>
       </div>
-      <button onClick={() => handleFlip()}>Description</button>
     </div>
   );
 };

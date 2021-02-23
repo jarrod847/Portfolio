@@ -18,7 +18,7 @@ const Social = () => {
         console.log("Succesfully sent");
       });
   };
-  
+
   //social
 
   return (
@@ -64,7 +64,9 @@ const Social = () => {
               />
             </a>
           </div>
-          <button>Send</button>
+          <button data-hover="Send!">
+            <div>Send message</div>
+          </button>
         </form>
       </div>
     </div>

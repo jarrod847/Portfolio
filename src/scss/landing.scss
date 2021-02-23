@@ -1,15 +1,22 @@
 .landing {
-  width: 75%;
+  width: 90%;
   margin: 5% auto;
-  .landing-left {
-  }
-  h1 {
-    color: #222831;
-    text-decoration: none;
-  }
-  h2 {
-    text-align: center;
-    font-size: 3rem;
+  .landingHeaderContainer {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+
+    img {
+      width: 500px;
+      height: 350px;
+    }
+    h2 {
+      color: #222831;
+      text-align: center;
+      font-size: 3rem;
+    }
   }
 
   p {

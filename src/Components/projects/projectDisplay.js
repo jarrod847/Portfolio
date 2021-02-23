@@ -7,9 +7,14 @@ const ProjectDisplay = () => {
   const [projects, setProjects] = useState(data);
   return (
     <div className="projectDisplay">
-      {projects.map((item, index) => {
-        return <Project key={index} data={item} />;
-      })}
+      <div className="projectHeadContainer">
+        <h2>Projects</h2>
+      </div>
+      <div className="projects">
+        {projects.map((item, index) => {
+          return <Project key={index} data={item} />;
+        })}
+      </div>
     </div>
   );
 };

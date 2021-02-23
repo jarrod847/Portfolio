@@ -1,6 +1,7 @@
 export const data = [
   {
     project: "Foster Together",
+    stack: "React, Formik, Node.js, Javascript, Styled-Components, Yup",
     start: "12-2019",
     end: "03-2020",
     deployed: "",
@@ -8,6 +9,7 @@ export const data = [
   },
   {
     project: "Fanatics Gym",
+    stack: "React, Formik, Node.js, Javascript, Yup",
     start: "12-2019",
     end: "Present",
     deployed: "",
@@ -15,6 +17,7 @@ export const data = [
   },
   {
     project: "Tracker",
+    stack: "React, Javascript",
     start: "03-2020",
     end: "Present",
     deployed: "",
@@ -22,6 +25,7 @@ export const data = [
   },
   {
     project: "Timer",
+    stack: "React, Javascript, Sass",
     start: "06-2020",
     end: "06-2020",
     deployed: "https://timer-two.vercel.app/",
@@ -29,6 +33,7 @@ export const data = [
   },
   {
     project: "Conways Game of Life",
+    stack: "React, Javascript, Sass",
     start: "05-2020",
     end: "05-2020",
     deployed: "https://gameoflife-jarrodskahill.now.sh/",
